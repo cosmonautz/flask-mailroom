@@ -5,7 +5,8 @@
 <body>
     <nav>
         <a id="Donations" href="{{ url_for('all') }}">Donations</a>
-        <a id="Create" href="{{ url_for('create') }}">Add Donations</a>
+        <a id="Create" href="{{ url_for('create') }}">Add Donation</a>
+        <a id="View Donor" href="{{ url_for('view_single') }}">Donor</a>
     </nav>
 	<h1>Donations</h1>
 	<h2>{% block subtitle %} {% endblock subtitle %}</h2>
